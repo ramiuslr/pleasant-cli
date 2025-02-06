@@ -26,7 +26,7 @@
           pname = "pleasant-cli";
           inherit version;
           src = ./.;
-          vendorHash = "sha256-mRAlpDUg+2O/ShhxNVGGfK8YUJvWcR/ojossgZ7rCEY=";
+          vendorHash = "sha256-QTMefJT2cXbrkrF8ub04KETyXVl9nuc1yfbad+NKypE=";
         };
 
         apps.default = flake-utils.lib.mkApp {
